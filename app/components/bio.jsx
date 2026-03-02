@@ -1,4 +1,4 @@
-export default function bio()
+export default function Bio()
 {
     return(
         <div>
@@ -6,6 +6,7 @@ export default function bio()
            <p>Welcome to my personal website!</p>
            <p>I'm majoring in Computer Engineering at 
             the University of Illinois at Chicago.</p>
+            <img src="/image.png" alt="Calico" width="200" />
         </div>
     )
 }

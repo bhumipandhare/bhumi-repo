@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import bio from "./components/bio";
+import Bio from "./components/Bio";
 
 export default function Home() {
   return (
@@ -8,6 +8,8 @@ export default function Home() {
       <Link href="/about">About</Link>
       <Link href="/contact">Contact</Link>
       <Link href="/projects">Projects</Link>
+      <Bio></Bio>
     </div>
+
   );
 }
